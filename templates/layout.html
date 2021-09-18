@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      {% if title %}
+        <title>MushroomBlog - {{title}}</title>
+      {% else %}
+        <title>MushroomBlog</title>
+      {% endif %}
+  </head>
+  <body>
+    {% block content %}{% endblock %}
+  </body>
+</html>
